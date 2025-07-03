@@ -1,0 +1,106 @@
+.crear-punto-recoleccion {
+    background: linear-gradient(135deg, #0a2342 80%, #274472 100%);
+    color: #f5f6fa;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px 0 rgba(10, 35, 66, 0.18), 0 1.5px 6px 0 rgba(39, 68, 114, 0.10);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.crear-punto-recoleccion h3 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #6ec1e4;
+    font-weight: 600;
+}
+
+.crear-punto-recoleccion div {
+    margin-bottom: 1.2rem;
+}
+
+.crear-punto-recoleccion label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e1e9f0;
+    gap: 0.4rem;
+}
+
+.crear-punto-recoleccion input[type="text"],
+.crear-punto-recoleccion select,
+.crear-punto-recoleccion textarea {
+    margin-top: 0.3rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    border: none;
+    background: #1b3358;
+    color: #f5f6fa;
+    font-size: 1rem;
+    transition: box-shadow 0.2s, border 0.2s;
+    box-shadow: 0 1px 2px 0 rgba(39, 68, 114, 0.10);
+    outline: none;
+}
+
+.crear-punto-recoleccion input[type="text"]:focus,
+.crear-punto-recoleccion select:focus,
+.crear-punto-recoleccion textarea:focus {
+    border: 1.5px solid #6ec1e4;
+    box-shadow: 0 0 0 2px #6ec1e4aa;
+}
+
+.crear-punto-recoleccion textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.crear-punto-recoleccion button[type="submit"] {
+    width: 100%;
+    background: linear-gradient(90deg, #6ec1e4 60%, #274472 100%);
+    color: #0a2342;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 0;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(110, 193, 228, 0.10);
+}
+
+.crear-punto-recoleccion button[type="submit"]:hover {
+    background: linear-gradient(90deg, #274472 10%, #6ec1e4 100%);
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .crear-punto-recoleccion {
+        padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+        max-width: 98vw;
+    }
+}
+
+.volver-inicio-btn {
+    width: 100%;
+    background: linear-gradient(90deg, #43a047 60%, #00530f 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 0;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(67, 160, 71, 0.10);
+}
+
+.volver-inicio-btn:hover {
+    background: linear-gradient(90deg, #00530f 10%, #43a047 100%);
+    color: #e1e9f0;
+}

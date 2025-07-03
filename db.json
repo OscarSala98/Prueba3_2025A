@@ -1,0 +1,76 @@
+{
+  "puntosRecoleccion": [
+    {
+      "id": "1",
+      "direccion": "Av. Amazonas y Colón",
+      "tipo": "reciclaje",
+      "estado": "activo",
+      "observaciones": "Contenedor para papel y cartón",
+      "esCentroAcopio": false
+    },
+    {
+      "id": "2",
+      "direccion": "Calle 10 de Agosto y Naciones Unidas",
+      "tipo": "reciclaje",
+      "estado": "activo",
+      "observaciones": "Centro de acopio para plásticos",
+      "esCentroAcopio": true
+    },
+    {
+      "id": "3",
+      "direccion": "Av. La Prensa y El Inca",
+      "tipo": "organico",
+      "estado": "activo",
+      "observaciones": "Solo residuos orgánicos"
+    },
+    {
+      "id": "4",
+      "direccion": "Calle Guayaquil y Mejía",
+      "tipo": "organico",
+      "estado": "inactivo",
+      "observaciones": "En mantenimiento"
+    },
+    {
+      "id": "5",
+      "direccion": "Av. 6 de Diciembre y Eloy Alfaro",
+      "tipo": "especial",
+      "estado": "activo",
+      "observaciones": "Residuos electrónicos y peligrosos",
+      "esPeligroso": true,
+      "esElectronico": true,
+      "esResiduoGranTamano": false
+    },
+    {
+      "id": "6",
+      "direccion": "Calle Vargas y Olmedo",
+      "tipo": "especial",
+      "estado": "activo",
+      "observaciones": "Solo residuos de gran tamaño",
+      "esPeligroso": false,
+      "esElectronico": false,
+      "esResiduoGranTamano": true
+    },
+    {
+      "direccion": "Av. Amazonas y Colón",
+      "tipo": "especial",
+      "estado": "activo",
+      "observaciones": "Contenedor grafiteado ya no ",
+      "esCentroAcopio": false,
+      "esPeligroso": true,
+      "esElectronico": false,
+      "esResiduoGranTamano": true,
+      "id": "438d"
+    },
+    {
+      "direccion": "Calle Vargas y Olmedo",
+      "tipo": "critico",
+      "estado": "inactivo",
+      "observaciones": "El contenedor no tiene tapas\n",
+      "esCentroAcopio": false,
+      "esPeligroso": false,
+      "esElectronico": false,
+      "esResiduoGranTamano": false,
+      "id": "7573"
+    }
+  ]
+}

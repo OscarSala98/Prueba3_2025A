@@ -1,0 +1,42 @@
+footer {
+    background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-shadow: 0 -2px 16px rgba(78, 84, 200, 0.15);
+    position: relative;
+    z-index: 10;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+footer p:first-child {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+footer p:last-child {
+    font-family: 'Fira Mono', monospace;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+footer.sticky-footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 1.2rem 0.5rem;
+        font-size: 0.95rem;
+    }
+}

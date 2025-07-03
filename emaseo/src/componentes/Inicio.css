@@ -1,0 +1,45 @@
+/* Inicio.css */
+
+.inicio-container {
+    padding: 2%;
+    text-align: center;
+    background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+    min-height: 60vh;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.08);
+    margin: 2rem auto;
+    max-width: 650px;
+    transition: box-shadow 0.3s;
+    width: fit-content;
+}
+
+.inicio-container:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
+
+.inicio-container h1 {
+    font-size: 2.4rem;
+    color: #00796b;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.inicio-container p {
+    font-size: 1.18rem;
+    color: #333;
+    margin-top: 1.2rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .inicio-container {
+        padding: 1.5rem 0.5rem;
+        max-width: 98vw;
+    }
+
+    .inicio-container h1 {
+        font-size: 1.5rem;
+    }
+}

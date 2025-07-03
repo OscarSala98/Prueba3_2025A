@@ -1,0 +1,44 @@
+/* Header.css */
+/* Colores institucionales: Azul (#003366) y Rojo (#D90429) */
+
+.header {
+    background: #0c315e;
+    color: #fff;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(217, 4, 41, 0.08);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.header nav {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header-nav-link {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: color 0.2s;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.header-nav-link:hover,
+.header-nav-link.active {
+    color: #003366;
+    background: #fff;
+    text-decoration: none;
+}
+
+
